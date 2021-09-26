@@ -1,0 +1,3 @@
+# Monte-Carlo-Backtest
+
+Backtested 1000 randomly generated portfolios with stocks chosen from the S&P 400 over 9 years.  Maximized or minimized 50 objective functions with Monte Carlo methods. The constraints that the Saluki Student Investment Fund enforces were maintained. Data was obtained with Bloomberg and CRSP. The code was written in R and run on the BigDawg High Performance Computing Cluster. Performance of the 50 objective functions was analyzed by creating a color scaled matrix of p-values from paired t-tests on the Information Ratio, Jensen's Alpha, and 5 Factor Alpha from each of the 1000 portfolios. Many of the files I used are missing. At the time I was working on this project I had not thought to put this project on Github.
